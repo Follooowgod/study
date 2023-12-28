@@ -83,3 +83,48 @@ switch (num) {
         console.log(i);
 
     }
+
+
+
+let num =20;
+
+    function showFirstMessage() {
+        console.log('hello world');
+        num = 5;
+    }
+
+    showFirstMessage();
+    console.log(num);
+
+    function calc(a, b) {
+        return (a + b);
+    }
+
+    console.log(calc(5,7));
+
+    function ret() {
+        let num = 50;
+        return num;
+    }
+
+    const anotherNum = ret();
+    console.log(anotherNum);
+
+
+    const logger = function () {
+        console.log('Hello');
+    };
+
+    logger();
+
+
+    
+    function calc(a, b) {
+        return (a + b);
+    }
+
+    
+    
+    const calc = (a, b) => {return a + b};
+    console.log(calc(3,4));
+    console.log(calc(5,7));
