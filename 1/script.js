@@ -86,11 +86,11 @@ switch (num) {
 
 
 
-let num =20;
+let num1 =20;
 
     function showFirstMessage() {
         console.log('hello world');
-        num = 5;
+        num1 = 5;
     }
 
     showFirstMessage();
@@ -128,3 +128,5 @@ let num =20;
     const calc = (a, b) => {return a + b};
     console.log(calc(3,4));
     console.log(calc(5,7));
+
+    
