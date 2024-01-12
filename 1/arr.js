@@ -1,8 +1,14 @@
 'use strict';
 
 const arr = [ 1, 2, 3, 6, 8];
-
+arr.sort(compareNum);
 console.log(arr.length);
+console.log(arr);
+
+function compareNum(a, b) {
+    return a - b;
+}
+
 
 arr.pop();
 console.log(arr);
@@ -27,4 +33,5 @@ arr.forEach(function(item, i, arr) {
 
 const str = prompt("","");
 const products = str.split(", ");
-console.log(products);
+products.sort();
+console.log(products.join('; '));

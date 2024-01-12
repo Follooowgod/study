@@ -1,5 +1,7 @@
 'use strict';
 
+// const obj = new Object();
+
 const options = {
     name: 'test',
     width: 1024,
